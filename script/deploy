@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ssh root@alresco5 <<EOF
+ssh root@localhost <<EOF
   cd ~/node-app
   git pull
   npm install --production
