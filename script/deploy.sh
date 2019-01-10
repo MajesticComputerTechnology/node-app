@@ -1,6 +1,7 @@
 #!/bin/sh
- cd /var/www/html/node-app
- git pull
- npm install --production
- pm2 restart all
- exit
+cd /var/www/html/node-app
+ls
+#git pull
+#npm install --production
+#pm2 restart all
+
